@@ -1,0 +1,83 @@
+.about__tradeCopy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about__tradeContent {
+    width: 40vw;
+    padding: 30px;
+}
+
+.about__tradeContent > h1 {
+    margin-bottom: 15px;
+}
+
+.about__tradeContent > p {
+    padding-bottom: 10px;
+    color: dimgray;
+}
+
+.about__tradeContent > button {
+    margin-top: 15px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #FEBE10;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tradeImg {
+    height: 50vh;
+    object-fit: contain;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 40vw;
+    padding: 30px;
+}
+
+.about__stakeCopy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about__stakeContent {
+    width: 40vw;
+    padding: 30px;
+}
+
+.about__stakeContent > h1 {
+    margin-bottom: 15px;
+}
+
+.about__stakeContent > p {
+    padding-bottom: 10px;
+    color: dimgray;
+}
+
+.about__stakeContent > button {
+    margin-top: 15px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #FEBE10;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.stakeImg {
+    height: 50vh;
+    object-fit: contain;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 40vw;
+    padding: 30px;
+}
