@@ -4,5 +4,33 @@
 
 .signUp__content {
     margin-left: 25px;
-    max-width: 400px;
+    max-width: 40vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.signUp__content > h1 {
+    margin-bottom: 15px;
+}
+
+.signUp__content > p {
+    padding-bottom: 10px;
+    color: dimgray;
+}
+
+.signUp__content > button {
+    margin-top: 15px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #FEBE10;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #FFD700;
 }
