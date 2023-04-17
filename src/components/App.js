@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Markets from '../pages/Markets'
+import Coin from './Coin';
 import '../css/App.css';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
         <Routes>
           <Route path='/' element={ <Home /> } />
           <Route path='markets' element={ <Markets /> } />
+          <Route path='/coin' element={ <Coin /> }>
+            <Route path=':coinId' element={ <Coin /> } />
+          </Route>
         </Routes>
       </Router>
     </div>

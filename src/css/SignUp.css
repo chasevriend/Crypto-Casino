@@ -20,7 +20,7 @@
     color: dimgray;
 }
 
-.signUp__content > button {
+.signUp__btn {
     margin-top: 15px;
     padding: 15px 25px;
     border-radius: 8px;

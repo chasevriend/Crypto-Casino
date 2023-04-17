@@ -8,16 +8,8 @@ const Home = () => {
     return(
         <div className="home">
             <Header />
-
-            {/* sign up, copy, and graphic */}
             <SignUp />
-            {/* horizontal bar showcasing crypto prices & button 
-            
-            <Prices /> */}
-            
             <About /> 
-            
-            {/* Footer */}
             <Footer />
         </div>
     )
