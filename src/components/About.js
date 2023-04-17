@@ -46,15 +46,6 @@ const About = () => {
                 </div>
                 <img src={pay} className="payImg"></img>
             </div>
-            <div className="about__callingCopy">
-                <h1>Crypto is Calling</h1>
-                <p>
-                    Join millions of investors and traders on the best crypto platform for low fees. Sign up today 
-                    and buy your first crypto in as little as 2 minutes
-                </p>
-                <button>Sign Up</button>
-            </div>
-
         </div>
     )
 };
