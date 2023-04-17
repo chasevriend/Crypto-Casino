@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crypto-casino/static/css/main.0551dc32.css",
+    "main.js": "/crypto-casino/static/js/main.c3a25ad0.js",
+    "static/media/tradeGraphic.jpeg": "/crypto-casino/static/media/tradeGraphic.201bbaa7c84a848a0cce.jpeg",
+    "static/media/pay.jpeg": "/crypto-casino/static/media/pay.85fcd2a68c315225396d.jpeg",
+    "static/media/stakeGraphic.jpeg": "/crypto-casino/static/media/stakeGraphic.6a6a0b0a73ed583c5829.jpeg",
+    "index.html": "/crypto-casino/index.html",
+    "main.0551dc32.css.map": "/crypto-casino/static/css/main.0551dc32.css.map",
+    "main.c3a25ad0.js.map": "/crypto-casino/static/js/main.c3a25ad0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0551dc32.css",
+    "static/js/main.c3a25ad0.js"
+  ]
+}
