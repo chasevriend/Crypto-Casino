@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/crypto-casino/static/css/main.0551dc32.css",
-    "main.js": "/crypto-casino/static/js/main.69bfeeb8.js",
-    "static/js/787.f4cfcab2.chunk.js": "/crypto-casino/static/js/787.f4cfcab2.chunk.js",
-    "static/media/tradeGraphic.jpeg": "/crypto-casino/static/media/tradeGraphic.201bbaa7c84a848a0cce.jpeg",
-    "static/media/pay.jpeg": "/crypto-casino/static/media/pay.85fcd2a68c315225396d.jpeg",
-    "static/media/stakeGraphic.jpeg": "/crypto-casino/static/media/stakeGraphic.6a6a0b0a73ed583c5829.jpeg",
-    "index.html": "/crypto-casino/index.html",
-    "main.0551dc32.css.map": "/crypto-casino/static/css/main.0551dc32.css.map",
-    "main.69bfeeb8.js.map": "/crypto-casino/static/js/main.69bfeeb8.js.map",
-    "787.f4cfcab2.chunk.js.map": "/crypto-casino/static/js/787.f4cfcab2.chunk.js.map"
+    "main.css": "/Crypto-Casino/static/css/main.0551dc32.css",
+    "main.js": "/Crypto-Casino/static/js/main.45302e42.js",
+    "static/js/787.f4cfcab2.chunk.js": "/Crypto-Casino/static/js/787.f4cfcab2.chunk.js",
+    "static/media/tradeGraphic.jpeg": "/Crypto-Casino/static/media/tradeGraphic.201bbaa7c84a848a0cce.jpeg",
+    "static/media/pay.jpeg": "/Crypto-Casino/static/media/pay.85fcd2a68c315225396d.jpeg",
+    "static/media/stakeGraphic.jpeg": "/Crypto-Casino/static/media/stakeGraphic.6a6a0b0a73ed583c5829.jpeg",
+    "index.html": "/Crypto-Casino/index.html",
+    "main.0551dc32.css.map": "/Crypto-Casino/static/css/main.0551dc32.css.map",
+    "main.45302e42.js.map": "/Crypto-Casino/static/js/main.45302e42.js.map",
+    "787.f4cfcab2.chunk.js.map": "/Crypto-Casino/static/js/787.f4cfcab2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0551dc32.css",
-    "static/js/main.69bfeeb8.js"
+    "static/js/main.45302e42.js"
   ]
 }
