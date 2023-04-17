@@ -1,6 +1,6 @@
 {
+  "homepage": "http://chasevriend.github.io/Crypto-Casino",
   "name": "crypto-casino",
-  "homepage": "http://chasevriend.github.io/crypto-casino",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
