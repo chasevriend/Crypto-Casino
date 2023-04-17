@@ -1,4 +1,5 @@
 import React from "react";
+import hero from "../images/hero-video.mp4";
 import "../css/SignUp.css";
 
 const SignUp = () => {
@@ -9,7 +10,9 @@ const SignUp = () => {
                 <p>Securely buy crypto and earn rewards with staking. Sign up to trade & gamble today.</p>
             </div>
             <div className="signUp__graphic">
-            {/* https://static.binance.us/static/images/home/hero-video.mp4 */}
+                <hero width="750" height="500" controls >
+                    
+                </hero>
             </div>
         </div>
     )

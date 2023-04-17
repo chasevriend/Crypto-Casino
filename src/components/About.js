@@ -1,6 +1,7 @@
 import React from "react";
 import tradeGraphic from "../images/tradeGraphic.jpeg";
 import stakeGraphic from "../images/stakeGraphic.jpeg";
+import pay from "../images/pay.jpeg";
 import "../css/About.css";
 
 const About = () => {
@@ -34,8 +35,26 @@ const About = () => {
                     <button className="about__stakeBtn">Earn Rewards</button>
                 </div>
             </div>
+            <div className="about__sendCopy">
+                <div className="about__sendContent">
+                    <h1>Send & Receive Crypto For Free</h1>
+                    <p>
+                        Use Pay on the Crypto Casino app to send, request, and recieve crypto instantly with zero 
+                        transaction fees
+                    </p>
+                    <button>Download App to Pay</button>
+                </div>
+                <img src={pay} className="payImg"></img>
+            </div>
+            <div className="about__callingCopy">
+                <h1>Crypto is Calling</h1>
+                <p>
+                    Join millions of investors and traders on the best crypto platform for low fees. Sign up today 
+                    and buy your first crypto in as little as 2 minutes
+                </p>
+                <button>Sign Up</button>
+            </div>
 
-            
         </div>
     )
 };
