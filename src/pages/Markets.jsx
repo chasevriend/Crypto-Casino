@@ -20,7 +20,7 @@ const Markets = () => {
     return(
         <div>
             <Header /> 
-            <Coins coins={coins} />
+            {/* <Coins coins={coins} /> */}
             <Footer />
         </div>
     )

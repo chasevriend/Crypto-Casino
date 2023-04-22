@@ -13,11 +13,11 @@ const Header = () => {
                 </div>
             </Link>
             <div className="header__btns">
-                <Link to='/markets' style={{ textDecoration: 'none', color: 'inherit' }}>
+                {/* <Link to='/markets' style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="header__btn">
                         <h4>Markets</h4>
                     </div>
-                </Link>
+                </Link> */}
                 <button className="header__joinBtn">Sign Up</button>
             </div>
         </div>
