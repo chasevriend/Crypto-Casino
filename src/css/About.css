@@ -1,3 +1,7 @@
+.about {
+    margin-top: 50px;
+}
+
 .about__tradeCopy {
     display: flex;
     align-items: center;
@@ -155,4 +159,42 @@
 
 button:hover {
     background-color: #FFD700;
+}
+
+.about__why {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about__why span {
+    color: #FEBE10;
+}
+
+.about__join {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.about__join h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.about__join p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.about__joinBtn {
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #FEBE10;
+    border-style: none;
+    font-weight: bold;
 }

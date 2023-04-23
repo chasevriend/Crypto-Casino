@@ -7,6 +7,7 @@ import "../css/About.css";
 const About = () => {
     return(
         <div className="about">
+            <h1 className="about__why">WHY <span>CHOOSE US</span></h1>
             <div className="about__tradeCopy">
                 <div className="about__tradeContent">
                     <h1>Trade Like a Pro</h1>
@@ -45,6 +46,11 @@ const About = () => {
                     <button>Download App to Pay</button>
                 </div>
                 <img src={pay} className="payImg"></img>
+            </div>
+            <div className="about__join">
+                <h1>JOIN US</h1>
+                <p>Invest and manage all your crypto at one place</p>
+                <button className="about__joinBtn">JOIN NOW</button>
             </div>
         </div>
     )

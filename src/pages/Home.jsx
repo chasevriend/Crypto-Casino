@@ -28,7 +28,7 @@ const Home = () => {
             <Title />
             <Coins coins={coins} />
             <About />
-            <SignUp />
+            {/* <SignUp /> */}
             <Footer />
         </div>
     )

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import CasinoIcon from '@mui/icons-material/Casino';
 import "../css/Header.css";
 
 const Header = () => {
@@ -31,22 +30,41 @@ const Header = () => {
     
     
     return(
-        <div className="header">
-            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div className="header__logo">
-                    <CasinoIcon fontSize="large" className="header__icon" />
-                    <h3>CryptoCasino</h3>
+        <>
+            <nav className={sticky ? "sticky-nav" : ""}>
+                <div className="header" >
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="header__logo">
+                            <h3>CryptoCasino</h3>
+                        </div>
+                    </Link>
+                    <div className="header__btns">
+                        <ul>
+                            <li><a href="#/">Home</a></li>
+                            <li><a href="#/Market">Market</a></li>
+                            <li><a href="#/WhyUs">Choose Us</a></li>
+                        </ul>
+                        <button className="header__joinBtn">Sign Up</button>
+                    </div>
                 </div>
-            </Link>
-            <div className="header__btns">
+            </nav>
+
+            {/* mobile nav */}
+            {/* <div className={`mobile-nav ${mobile ? "mobile-up" : ""}`}>
+                <i onClick={openMobile} className="fa-solid fa-xmark close-mobile"></i>
                 <ul>
-                    <li><a href="#/">Home</a></li>
-                    <li><a href="#/Market">Market</a></li>
-                    <li><a href="#/WhyUs">Choose Us</a></li>
+                    <li onClick={openMobile}>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li onClick={openMobile}>
+                        <a href="#market">Market</a>
+                    </li>
+                    <li onClick={openMobile}>
+                        <a href="#choose-us">Choose Us</a>
+                    </li>
                 </ul>
-                <button className="header__joinBtn">Sign Up</button>
-            </div>
-        </div>
+            </div> */}
+        </>
     )
 }
 
