@@ -39,11 +39,6 @@ const Header = () => {
                         </div>
                     </Link>
                     <div className="header__btns">
-                        <ul>
-                            <li><a href="#/">Home</a></li>
-                            <li><a href="#/Market">Market</a></li>
-                            <li><a href="#/WhyUs">Choose Us</a></li>
-                        </ul>
                         <button className="header__joinBtn">Sign Up</button>
                     </div>
                 </div>

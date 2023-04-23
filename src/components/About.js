@@ -3,8 +3,11 @@ import tradeGraphic from "../images/tradeGraphic.jpeg";
 import stakeGraphic from "../images/stakeGraphic.jpeg";
 import pay from "../images/pay.jpeg";
 import "../css/About.css";
+import InfoBox from "./InfoBox";
+import WalletIcon from '@mui/icons-material/Wallet';
 
 const About = () => {
+
     return(
         <div className="about">
             <h1 className="about__why">WHY <span>CHOOSE US</span></h1>
@@ -53,6 +56,46 @@ const About = () => {
                 <button className="about__joinBtn">JOIN NOW</button>
             </div>
         </div>
+        // <>  
+        //     <section id="about-us" className="about-section">
+        //         <h2>Why <span>Choose Us</span></h2>
+        //         <div className="about">
+        //             <div className="about__content">
+        //                 <InfoBox 
+        //                     img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXSEj3U25H4io2WBQcTf2vvGJSHsjt_BsUI7UyB52dT9UQp-y8ni-eNfN7_L61jhcq-eo&usqp=CAU"
+        //                     title="TRADE LIKE A PRO"
+        //                     text="Discover trading opportunities across markets with our Advanced Trading interface."
+        //                 />
+        //                 <InfoBox
+        //                     img="https://w7.pngwing.com/pngs/678/240/png-transparent-stack-overflow-stack-exchange-computer-icons-quantity-angle-text-stack-thumbnail.png"
+        //                     title="SELECT YOUR QUANTITY"
+        //                     text="Upload your crypto and set a title, description and price."
+        //                 />
+        //                 <InfoBox
+        //                     img="https://miro.medium.com/v2/resize:fit:1000/1*B_R11J_9G4U3lac0omktLQ.png"
+        //                     title="SEND & RECIEVE CRYPTO FOR FREE"
+        //                     text="Use Pay on the Crypto Casino app to send, request, and recieve crypto instantly with zero transaction fees."
+        //                 />
+        //                 {/* <img src="https://content.presentermedia.com/files/clipart/00024000/24596/crypto_currency_explosion_800_wht.jpg" className="bitImg"></img> */}
+        //                 <InfoBox
+        //                     img="https://www.clipartmax.com/png/middle/259-2596826_wallet-icon-wallet-logo-transparent.png"
+        //                     title="CONNECT YOUR WALLET"
+        //                     text="Use Trust Wallet, Metamask or connect to the app"
+        //                 />
+        //                 <InfoBox
+        //                     img="https://www.freeiconspng.com/thumbs/market-icons/market-stand-icon-1.png"
+        //                     title="TAKE TO MARKET TO SELL"
+        //                     text="Discover, collect the right crypto collections to buy or sell"
+        //                 />
+        //                 <div className="about__contentJoin">
+        //                     <h2>JOIN US NOW</h2>
+        //                     <p>Invest and manage all your crypto at one place.</p>
+        //                     <button>JOIN NOW</button>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </section>
+        // </>
     )
 };
 
