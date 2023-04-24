@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={ <Home /> } />
-          <Route path='markets' element={ <Markets /> } />
+          <Route path='/markets' element={ <Markets /> } />
           <Route path='/coin' element={ <Coin /> }>
             <Route path=':coinId' element={ <Coin /> } />
           </Route>
