@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Coins from "../components/Coins";
 import axios from 'axios';
 import Title from "../components/Title";
+import Hero from "../components/Hero";
 
 const Home = () => {
     const [coins, setCoins] = useState([])
@@ -25,11 +26,11 @@ const Home = () => {
     return(
         <div className="home">
             <Header />
-            <Title />
-            <Coins coins={coins} />
-            <About />
+            <Hero />
+            {/* <About /> */}
+            {/* <Coins coins={coins} /> */}
             {/* <SignUp /> */}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

@@ -1,0 +1,40 @@
+.hero {
+    margin-top: 15vh;
+    padding: 20px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 35rem;
+}
+
+.hero__content h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.hero__content p {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.hero__btn {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 25px;
+}
+
+.hero__img {
+    width: 35rem;
+    height: auto;
+}
