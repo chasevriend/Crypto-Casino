@@ -31,8 +31,11 @@ const Home = () => {
             {/* <Coins coins={coins} /> */}
             {/* <SignUp /> */}
             {/* <Footer /> */}
+
         </div>
     )
 }
 
 export default Home;
+
+// nav, hero, about, banner, reviews, footer

@@ -14,7 +14,7 @@ const Hero = () => {
                         allows people to grow their knowledge</p>
                         <button className='hero__btn'>Start Investing</button>
                     </div>
-                    <img src={HeroImg} alt='hero image' className='hero__img' />
+                    <img src={HeroImg} className='hero__img' alt='' />
                 </div>
             </div>
         </section>
