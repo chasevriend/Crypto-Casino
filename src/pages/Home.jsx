@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Header from "../components/Header";
+import Nav from "../components/Nav";
 import SignUp from "../components/SignUp";
 import About from "../components/About";
 import Footer from "../components/Footer";
@@ -9,7 +9,7 @@ import Title from "../components/Title";
 import Hero from "../components/Hero";
 
 const Home = () => {
-    const [coins, setCoins] = useState([])
+    const [coins, setCoins] = useState([]);
 
     const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false&locale=en"
   
@@ -25,7 +25,7 @@ const Home = () => {
     
     return(
         <div className="home">
-            <Header />
+            <Nav />
             <Hero />
             {/* <About /> */}
             {/* <Coins coins={coins} /> */}

@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 10vh;
+    margin-top: 15vh;
     padding: 20px;
     max-width: 75rem;
     margin-left: auto;
@@ -31,6 +31,16 @@
     font-weight: 900;
     padding: 10px 20px;
     background-color: #13c636;
+    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
+}
+
+.hero__btn { 
+    background-color: #13c636;
+    border-radius: 8px; 
+    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
+    color: #fff;
+    padding: 15px 30px;
+    transition: all .3s;
 }
 
 .hero__btn:hover {
@@ -38,7 +48,7 @@
 }
 
 .hero__img {
-    max-width: 35rem;
+    width: 30rem;
     height: auto;
-    width: 400px;
+    /* width: 400px; */
 }

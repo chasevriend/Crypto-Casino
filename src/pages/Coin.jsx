@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
-import Header from '../components/Header';
 import DOMPurify from 'dompurify';
 import "../css/Coin.css";
+import Nav from '../components/Nav';
 
 
 const Coin = () => {
@@ -22,7 +22,7 @@ const Coin = () => {
   
     return (
         <div className='coin'>
-            <Header />
+            <Nav/>
             <div className='coin__container'>
                 <div className='coin__content'>
                     <h1>{coin.name}</h1>

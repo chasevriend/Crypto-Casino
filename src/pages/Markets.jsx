@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
 import Coins from "../components/Coins";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 const Markets = () => {
     const [coins, setCoins] = useState([])
 
@@ -19,7 +19,7 @@ const Markets = () => {
     
     return(
         <div>
-            <Header /> 
+            <Nav /> 
             {/* <Coins coins={coins} /> */}
             <Footer />
         </div>
