@@ -1,5 +1,5 @@
 .hero {
-    margin-top: 15vh;
+    margin-top: 10vh;
     padding: 20px;
     max-width: 75rem;
     margin-left: auto;
@@ -18,23 +18,27 @@
 }
 
 .hero__content h1 {
-    font-size: 45px;
     font-weight: 800;
 }
 
 .hero__content p {
-    font-size: 20px;
-    padding: 20px 0;
-    font-weight: 600;
+    padding: 25px 0;
+    font-weight: 700;
 }
 
 .hero__btn {
     font-size: 25px;
-    font-weight: 600;
-    padding: 15px 25px;
+    font-weight: 900;
+    padding: 10px 20px;
+    background-color: #13c636;
+}
+
+.hero__btn:hover {
+    transform: scale(1.1);
 }
 
 .hero__img {
-    width: 35rem;
+    max-width: 35rem;
     height: auto;
+    width: 400px;
 }

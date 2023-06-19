@@ -9,10 +9,10 @@ const Hero = () => {
             <div className='hero'>
                 <div className='hero__container'>
                     <div className='hero__content'>
-                        <h1>Invest in Crypto</h1>
-                        <p>Crypto Casino is one of the world's leading social investment communities that 
-                        allows people to grow their knowledge</p>
-                        <button className='hero__btn'>Start Investing</button>
+                        <h1 className='text-5xl text-white'>Let's Beat the Bear Market</h1>
+                        <p className='text-xl text-white'>Crypto Casino is one of the world's leading social investment communities that 
+                        allows people to grow their wealth.</p>
+                        <button className='hero__btn rounded-full text-white hover:bg-green-600'>Start Investing</button>
                     </div>
                     <img src={HeroImg} className='hero__img' alt='' />
                 </div>

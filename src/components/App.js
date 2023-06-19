@@ -3,7 +3,6 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Markets from '../pages/Markets'
 import Coin from '../pages/Coin';
-import '../css/App.css';
 
 function App() {
   return (
