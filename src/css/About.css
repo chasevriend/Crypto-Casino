@@ -16,10 +16,11 @@
     justify-content: space-between;
     flex-direction: column;
     padding: 25px;
-    background-color: #333949;
+    background-color: black;
     border-radius: 10px;
     height: 50vh;
     width: 20vw;
+    cursor: pointer;
 }
 
 .about__cell p {
@@ -28,8 +29,37 @@
     color: white;
 }
 
+.about__cell svg {
+    height: 150px;
+}
+
 .currentColor {
     color: white;
     transform: scale(1.4);
 }
 
+.more {
+    margin-top: 15vh;
+    background-color: #000021;
+    width: 100%;
+}
+
+.more__container {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    max-width: 75rem;
+    align-items: center;
+}
+
+.more__content {
+    max-width: 30rem;
+}
+
+.more__img {
+    width: 35rem;
+    height: 50vh;
+}
