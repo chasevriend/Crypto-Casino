@@ -17,13 +17,14 @@
     justify-content: space-evenly;
     flex-direction: column;
     padding: 25px;
-    border-radius: 10px;
-    height: 50vh;
+    border-radius: 8px;
+    height: 60vh;
     width: 20vw;
     cursor: pointer;
+    
 }
 
-.about__cell p {
+.about__cell {
     font-size: 20px;
     font-weight: 800;
     text-align: center;

@@ -9,10 +9,10 @@ const About = () => {
             <section id="about">
                 <div className="about">
                 <h2 className="text-center text-white font-bold text-4xl">Trusted Worldwide</h2>
-                <p className="p-10 text-center text-slate-400 font-bold text-xl">Discover why millions of investors from every country 
+                <p className="p-10 text-center text-slate-400 font-bold text-2xl">Discover why millions of investors from every country 
                 ever joined our exchange</p>
                     <div className="about__container">
-                        <div className="about__cell">
+                        <div className="about__cell bg-zinc-700">
                             <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 186 207" version="1.1">
                                 <g id="Protection-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="Group-12" transform="translate(53.000000, 53.000000)">
@@ -23,11 +23,11 @@ const About = () => {
                                     </g>
                                 </g>
                             </svg>
-                            <p className="text-white">Protection</p>
-                            <p className="text-slate-400">Don't worry. Your account is totally safe with our industry-leading 
+                            <p className="text-white text-2xl">Protection</p>
+                            <p className="text-slate-400 text-lg">Don't worry. Your account is totally safe with our industry-leading 
                             security systems.</p>
                         </div>
-                        <div className="about__cell">
+                        <div className="about__cell bg-zinc-700">
                             <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 186 207" version="1.1">
                                 <g id="Privacy-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="Group-3" transform="translate(53.000000, 49.000000)">
@@ -62,11 +62,11 @@ const About = () => {
                                     </g>
                                 </g>
                             </svg>
-                            <p className="text-white">Privacy</p>
-                            <p className="text-slate-400">We never share your private and sensitive information without your 
+                            <p className="text-white text-2xl">Privacy</p>
+                            <p className="text-slate-400 text-lg">We never share your private and sensitive information without your 
                             permission.</p>
                         </div>
-                        <div className="about__cell">
+                        <div className="about__cell bg-zinc-700">
                             <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 186 207" version="1.1">
                                 <g id="Reputation-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="Group-22" transform="translate(34.000000, 40.000000)">
@@ -92,11 +92,11 @@ const About = () => {
                                     </g>
                                 </g>
                             </svg>
-                            <p className="text-white">Reputation</p>
-                            <p className="text-slate-400">With a decade of experience, Crypto Casino continues to be an 
+                            <p className="text-white text-2xl">Reputation</p>
+                            <p className="text-slate-400 text-lg">With a decade of experience, Crypto Casino continues to be an 
                             industry leader.</p>
                         </div>
-                        <div className="about__cell">
+                        <div className="about__cell bg-zinc-700">
                             <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 186 207" version="1.1">
                             <g id="Reliability-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="Group-15" transform="translate(46.000000, 51.000000)">
@@ -113,8 +113,8 @@ const About = () => {
                                 </g>
                             </g>
                             </svg>
-                            <p className="text-white">Cash</p>
-                            <p className="text-slate-400">Your cash is safe from Crypto Casino's and is held at trustworthy 
+                            <p className="text-white text-2xl">Cash</p>
+                            <p className="text-slate-400 text-lg">Your cash is safe from Crypto Casino's and is held at trustworthy 
                             institutions.</p>
                         </div>
                     </div>

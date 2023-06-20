@@ -1,33 +1,68 @@
 .signUp {
-    margin-top: 30px;
+    margin-top: 15vh;
 }
 
-.signUp__content {
-    margin-left: 25px;
-    max-width: 60vw;
-    text-align: center;
+.signUp__container {
+    max-width: 75rem;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    align-items: center;
 }
 
-
-.signUp__content > h1 {
-    margin-bottom: 15px;
+.signUp__container span {
+    padding: 20px 35px;
 }
 
-.signUp__content > p {
-    padding-bottom: 10px;
-    color: dimgray;
+.signUp__container span h2 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.signUp__text {
+    color: #13c636;
 }
 
 .signUp__btn {
-    margin-top: 15px;
+    color: white;
+    background-color: #13c636;
+    font-size: 25px;
+    font-weight: 800;
     padding: 15px 25px;
+    margin-top: 20px;
     border-radius: 8px;
-    border-style: none;
-    background-color: #FEBE10;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
+    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
 }
 
+.crypto {
+    height: 80px;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+    .crypto {
+        display: none;
+    }
+
+    #mobile-min {
+        font-size: 50px;
+    }
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
