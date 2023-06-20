@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     gap: 20px;
 }
 
@@ -39,3 +39,14 @@
     transform: scale(1.4);
 }
 
+@media (max-width: 900px) {
+    .about__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about__cell {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

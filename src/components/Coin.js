@@ -44,11 +44,11 @@ const Coin = () => {
                     <div className='coin__content'>
                         <table>
                             <thead>
-                                <tr>
+                                <tr className='coin__head'>
                                     <th>1h</th>
                                     <th>24h</th>
                                     <th>7d</th>
-                                    <th>14d</th>
+                                    <th id='mobile'>14d</th>
                                     <th id='mobile'>30d</th>
                                     <th id='mobile'>1y</th>
                                 </tr>

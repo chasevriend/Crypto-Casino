@@ -1,6 +1,3 @@
-/* background-color: #13c636;
-box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35); */
-
 .coin {
     margin-top: 15vh;
 }
@@ -17,7 +14,7 @@ box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35); */
     font-weight: 800;
 }
 
-.coin p {
+.coin p, h4 {
     font-size: 20px;
     font-weight: 800;
     --tw-text-opacity: 1;
@@ -34,10 +31,7 @@ box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35); */
     text-align: center;
 } 
 
-/* .coin__container {
-    background-color: #13c636;
-    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
-} */
+
 
 .coin__infoTicker {
     margin-left: 10px;
@@ -70,6 +64,8 @@ table {
 
 th {
     color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 td, th {
@@ -78,7 +74,7 @@ td, th {
 }
 
 th {
-    background-color: #333;
+    background-color: #13c636;
 }
 
 .coin__stats {
@@ -111,10 +107,6 @@ th {
 
     .coin__stats {
         grid-template-columns: 1fr;
-    }
-
-    td, th {
-        padding: 3px;
     }
 }
 

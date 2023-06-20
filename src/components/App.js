@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Markets from '../pages/Markets'
 import Coin from '../pages/Coin';
 
+
 function App() {
   return (
     <div className="App">

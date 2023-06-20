@@ -5,7 +5,6 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Coins from "../components/Coins";
 import axios from 'axios';
-import Title from "../components/Title";
 import Hero from "../components/Hero";
 
 const Home = () => {

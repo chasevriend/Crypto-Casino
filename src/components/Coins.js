@@ -8,6 +8,7 @@ const Coins = (props) => {
   return (
     <div className='coins'>
         <div> 
+            <h1 className='text-white text-center font-bold text-4xl p-7'>Current Markets</h1> 
             <div className='coins__heading'>
                 <p>#</p> 
                 <p className='coins__coinName'>Coin</p>
