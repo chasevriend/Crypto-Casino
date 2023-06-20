@@ -29,6 +29,11 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li>
+                            <Link onClick={openNav} to="/market">
+                                Market
+                            </Link>
+                        </li>
+                        <li>
                             <Link onClick={openNav} to="/contact">
                                 Contact
                             </Link>
@@ -45,7 +50,6 @@ const Nav = () => {
                 <div className="nav">
                     <div className="nav__left">
                         <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                            {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQQqpv2hGVY8srFS_Fw9a56ZgS8SbLbP3SaA&usqp=CAU" className="nav__logo" /> */}
                             <h1 className="text-3xl text-white font-bold">Crypto Casino</h1>
                         </Link>
                     </div>

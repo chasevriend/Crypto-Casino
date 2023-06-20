@@ -27,7 +27,7 @@ const Home = () => {
         <div className="home">
             <Nav />
             <Hero />
-            {/* <About /> */}
+            <About /> 
             {/* <Coins coins={coins} /> */}
             {/* <SignUp /> */}
             {/* <Footer /> */}
@@ -38,4 +38,4 @@ const Home = () => {
 
 export default Home;
 
-// nav, hero, about, banner, reviews, footer
+// about, banner, reviews, footer
