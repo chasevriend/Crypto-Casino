@@ -34,11 +34,6 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={openNav} to="/contact">
-                                Contact
-                            </Link>
-                        </li>
-                        <li>
                             <Link onClick={openNav} to="/">
                                 Sign Up
                             </Link>
@@ -64,9 +59,6 @@ const Nav = () => {
                         </Link>
                         <Link className="nav__btnSignIn" to="/markets">
                             Market
-                        </Link>
-                        <Link className="nav__btnSignIn" to="/contact">
-                            Contact
                         </Link>
                         <Link className="nav__btnRegister" to="/">
                             <button>

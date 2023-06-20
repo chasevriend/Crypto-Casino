@@ -29,7 +29,7 @@ const Home = () => {
             <Hero />
             <About /> 
             <Coins coins={coins} /> 
-            {/* <SignUp /> */}
+            <SignUp /> 
             <Footer /> 
 
         </div>

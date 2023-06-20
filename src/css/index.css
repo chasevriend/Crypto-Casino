@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --dark: 
-  background-color: rgb(30 41 59/var(--tw-bg-opacity));
-}
-
-
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +11,10 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
   /* --tw-bg-opacity: 1;
     background-color: rgb(30 41 59/var(--tw-bg-opacity)); */
-    background: linear-gradient(to right,rgb(30 41 59), black);
+    /* background: linear-gradient(to right,rgb(30 41 59), black);  */
 }
 
 code {

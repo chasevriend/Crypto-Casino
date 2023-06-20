@@ -1,25 +1,107 @@
 .footer {
-    display: flex;
+    /* margin-top: 100px; */
     background-color: black;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 15vh;
 }
 
-.footer__cell {
-    padding: 20px;
-    margin-top: 20px;
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 25px;
+    padding-bottom: 100px;
+    gap: 20px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footer__cell > h3 {
+.footerCell {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+} 
+
+.footerCell h2 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 0;
+    color: white;
+}
+
+.footerCell p {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.footerCell a {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #13c636;
+}
+
+
+.footerCell input {
+    padding: 18px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border: none;
+}
+
+.footerCell__btn {
+    background-color: #13c636;
+    border: 2px solid #13c636;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
+    padding: 18px 30px;
+    transition: all .3s;
     color: white;
     font-weight: bold;
-    
+    font-size: 20px;
+    cursor: pointer;   
 }
 
-.footer__cell > p {
-    color: gray;
-    margin-top: 10px;
+.footerCell b {
+    color: #13c636;
 }
 
-.footer__cell > p:hover {
-    color: white;
+button:hover {
+    background-color: #13c636;
+    box-shadow: 0 10px 15px 0 rgba(34, 217, 68, 0.35);
+}
+
+@media (max-width: 1000px) {
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerCell {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        width: 100%;
+    }
+    .footer__content {
+        width: 100%;
+    }
+    .footerCell {
+        width: 100%;
+    }
+    .footerCell > button, input {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

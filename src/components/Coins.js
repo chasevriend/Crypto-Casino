@@ -9,7 +9,7 @@ const Coins = (props) => {
     <div className='coins'>
         <div> 
             <div className='coins__heading'>
-                <p>#</p>
+                <p>#</p> 
                 <p className='coins__coinName'>Coin</p>
                 <p>Price</p>
                 <p>24h</p>
